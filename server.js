@@ -28,9 +28,9 @@ app.use(session({
 const connection  = mysql.createConnection({
     host: 'localhost',
     port: 3306,
-    user: 'root',
-    password: '',
-    database: 'plp_expense'
+    user: 'user_name',
+    password: 'password',
+    database: 'database_name'
 });
 
 connection.connect((err) => {
